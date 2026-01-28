@@ -17,6 +17,8 @@ import Search from "./modules/m07-performance-optimization/UseCallback/Search";
 import SimpleFromValidation from "./modules/m08-forms/SimpleFromValidation";
 import FormValidationFormikYap from "./modules/m08-forms/FormValidationFormikYap";
 import FormValidationReactHookForm from "./modules/m08-forms/FormValidationReactHookForm";
+import UseId from "./modules/m09-advance-hooks/UseId";
+import UseTransition from "./modules/m09-advance-hooks/UseTransition";
 
 function App() {
   return (
@@ -54,6 +56,10 @@ function App() {
       {/* <SimpleFromValidation />
       <FormValidationFormikYap />
       <FormValidationReactHookForm /> */}
+
+      {/* Module 09 */}
+      {/* <UseId /> */}
+      <UseTransition />
     </>
   );
 }
