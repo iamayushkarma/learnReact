@@ -14,7 +14,8 @@ import ParentContext from "./modules/m06-context-api/ParentContext";
 import ReactMemo from "./modules/m07-performance-optimization/ReactMemo/ReactMemo";
 import UseMemo from "./modules/m07-performance-optimization/UseMemo/UseMemo";
 import Search from "./modules/m07-performance-optimization/UseCallback/Search";
-import SimpleFromValidation from "./modules/08-forms/SimpleFromValidation";
+import SimpleFromValidation from "./modules/m08-forms/SimpleFromValidation";
+import FormValidationFormikYap from "./modules/m08-forms/FormValidationFormikYap";
 
 function App() {
   return (
@@ -49,7 +50,8 @@ function App() {
       <Search /> */}
 
       {/* Module 08 */}
-      <SimpleFromValidation />
+      {/* <SimpleFromValidation /> */}
+      <FormValidationFormikYap />
     </>
   );
 }
